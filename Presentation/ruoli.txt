@@ -1,0 +1,28 @@
+{-----------------------------------------
+    spiegazione missione
+    (segnali)
+
+    spiegazione sotto task
+
+    Stateflow:
+    -positioning -> orientazione, vero posizionamento (positioning a fine -> uguale e opposto)
+    -diving -> stabilizzazione, immersione
+}-----------------------------------------
+
+
+{------------------------------------------
+    -transect -> costruzione, caso allineato, (pari/dispari)
+    -turn -> (3 casi?), come forniamo riferimenti + timer
+    -surfacing -> compiuta: stabilizza, emerge; problema: emerge (ci prova)
+}-------------------------------------------
+
+
+{-----------------------------------------
+    issues:
+    -free -> profondità
+    -abort -> implementato + altre
+    -disalign -> come visto, come gestito
+    -obstacle -> differenza superabili e non
+
+    simulazioni e commenti
+}------------------------------------------

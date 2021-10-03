@@ -1,0 +1,65 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath} 
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{imakeidx}
+\usepackage{siunitx}
+\usepackage{amssymb}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\addbibresource{../references.bib}
+\graphicspath{{../Immagini/} {./}}
+
+\title{Report Subacquei, Gruppo A1\\
+Esplorazione fondale}
+\author{Canonico Martina, Scumaci Cristina, Vollaro Simone}
+\date{June 2020}
+
+%TODO: accenti
+
+\begin{document}\pagenumbering{arabic}
+    \input{"Frontespizio subacquei"}
+    
+    \newpage
+    \tableofcontents
+    \thispagestyle{empty}
+    
+    
+    \newpage
+    
+    \section{Introduzione1}
+    La nostra missione consiste nell'esplorazione di un'area con fondale irregolare: si tratta di una survey di tipo lawn-mower e il task
+    di esecuzione prevede che il veicolo debba mantenere una velocità di crociera costante, effettuando l'esplorazione con altitudine 
+    (distanza del veicolo rispetto al fondale) mantenuta ad un valore desiderato.
+    \\
+    \noindent
+    Il compito del nostro modulo è stato quello di definire istante per istante lo stato della missione (e relative operazioni elementari) attualmente attivo;
+    l’aggiornamento di tale stato è stato effettuato sulla base del monitoraggio di alcune variabili, tra cui un array di flag
+    chiamato \textit{"current\_state"}, di visibilità globale così che tutti i moduli avessero l'informazione dello stato attuale e
+    potessero conformemente adeguare il proprio comportamento.
+	
+    \vspace{\baselineskip}
+    In quanto modulo di references generator, il nostro compito è stato anche quello di generare i segnali di riferimento relativi a posizione,
+    orientazione e velocità delle varie operazioni elementari all'interno dei vari task, per il corretto svolgimento della missione.
+ q       
+    \newpage
+    \section{sec opage}!
+    aksdfnbsfddosnjd
+    \hyperref[hihi]{PRova link}\cite{stateflow}
+    issues
+    \newpage
+    \section{3rd}%!ciao
+    hi\label{hihi}
+    
+    \newpage
+    \printbibliography
+\end{document}
+

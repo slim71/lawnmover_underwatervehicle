@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Introduzione1}{3}{section.1}%
+\contentsline {section}{\numberline {2}sec opage}{4}{section.2}%
+\contentsline {section}{\numberline {3}3rd}{5}{section.3}%
