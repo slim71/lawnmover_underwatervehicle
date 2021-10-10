@@ -15,3 +15,9 @@ in total.
 
 The simulated environment was a portion of the seabed near the Isola del Giglio
 (Italy), which the robot would have to scan following a lawn-mover exploration.
+
+---
+Team members:
+- Cristina Scumaci
+- Martina Canonico
+- Simone Vollaro
